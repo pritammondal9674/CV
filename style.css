@@ -1,0 +1,175 @@
+section {
+    border: 2px solid black;
+    height: auto;
+}
+
+section .curriculum h1 {
+    /* padding: px 44px; */
+    margin-top: 65px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    /* background-color: cadetblue; */
+    padding-bottom: 10px;
+    color: rgb(28, 100, 102);
+}
+
+section .curriculum {
+    padding: 3px 30px;
+    /* padding-bottom: 6px; */
+}
+
+.personal-info {
+    /* border-top: 2px solid grey; */
+    padding: 0px 30px;
+    margin-top: -23px;
+    margin-bottom: 35px;
+}
+
+.box {
+    border-top: 3px solid grey;
+    padding: 0px 33px;
+}
+
+.github {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.career-objective {
+    color: rgb(28, 100, 102);
+    padding: 5px 62px;
+
+}
+
+.career-objective-1 {
+    padding: 0px 33px;
+    /* border-top: 2px solid gray; */
+
+}
+
+.career-objective-2 {
+    border-top: 2px solid gray;
+    padding: 0px 30px;
+}
+
+.educational {
+    /* border-top: 2px solid gray; */
+    color: rgb(28, 100, 102);
+    padding: 5px 62px;
+
+
+}
+
+.educational-2 {
+    /* border-top: 2px solid gray; */
+    padding: 0px 33px;
+
+
+}
+
+.educational-3 {
+    border-top: 2px solid gray;
+    padding: 26px 30px;
+    display: grid;
+    grid-template-areas:
+        'boxx boxx boxx boxx'
+        'boxx boxx boxx boxx'
+        'boxx boxx boxx boxx'
+        'boxx boxx boxx boxx'
+
+
+
+    ;
+
+
+
+
+}
+
+.boxx {
+    border: 1px solid black;
+    padding: 9px;
+}
+
+
+.skills {
+    color: rgb(28, 100, 102);
+    padding: 5px 62px;
+
+}
+
+.skills2 {
+    padding: 0px 33px;
+    /* border-top: 2px solid gray; */
+
+}
+
+.skills3 {
+    border-top: 2px solid gray;
+    padding: 0px 30px;
+}
+#Projects{
+    text-decoration: none;
+}
+.inline{
+    display: none;
+}
+
+@media screen and (max-width:540px){
+    body{
+        /* background-color: aqua; */
+        font-size: auto;
+    }
+   
+    .boxx{
+        display: none;
+
+    }
+    .skills3{
+        border-top: 2px solid gray;
+        padding: 0px 10px;
+    }
+    #Projects{
+        display: none;
+    }
+    .inline{
+        display: block;
+        
+    }
+    #edu{
+        padding: 0px 10px;
+    }
+    #edu2{
+        padding: 0px 10px;
+    }
+
+
+
+}
+@media screen and (max-width:320px) {
+    body{
+        background-color: rgb(225, 243, 245);
+        font-size:smaller;
+        
+    }
+    #Projects{
+        display: none;
+    }
+    .skills3{
+        border-top: 2px solid gray;
+        padding: 0px 0px;
+    }
+    section{
+        padding: 0px 0px;
+    }
+    .github{
+        font-size: smaller;
+    }
+    #flex{
+        display: none;
+    }
+    .inline{
+        padding: 0px 0px;
+    }
+
+}
